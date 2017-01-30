@@ -1,15 +1,12 @@
-<!DOCTYPE html>
-{% load staticfiles %}
+{% extends 'rango/base.html' %}
 
-<html>
-
-	<head>
+	{% block head_block %}
 
 		<title>About Rango</title>
 
-	</head>
+	{% endblock %}
 
-	<body>
+	{% block body_block %}
 
 		<h1>About Rango</h1>
 
@@ -17,10 +14,4 @@
 			<strong>This site was built by {{ name }}</strong>
 		</div>
 
-		<div>
-
-		</div>
-
-	</body>
-
-</html>
+	{% endblock %}
